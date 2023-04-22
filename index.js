@@ -13,6 +13,6 @@ app.get('/' , (req, res)=>{
     res.send(quotes[randomQuoteIndex]);
 });  
 
-app.listen(4000, ()=>{
+app.listen(8000, ()=>{
     console.log(`server started at 4000`);
 });
